@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osnovne aritmetičke operacije</title>
+</head>
+<body>
+    <script>
+
+        let pb= prompt("Upisati prvi broj:");
+        let op= prompt("Upisati potrebnu operaciju:");
+        let db= prompt("Upisati drugi broj:");
+        
+        switch (op) { 
+            case "+":       
+console.log(rz=parseInt(pb)+parseInt(db));
+break; 
+case "-": 
+console.log(rz=pb-db); 
+break; 
+case "*": 
+console.log(rz=pb*db); 
+break;
+case "/": 
+console.log(rz=pb/db);
+break; 
+default: 
+console.log(rz=pb+db); 
+break; 
+}
+
+alert ("Rezultat je:" + rz);
+        
+        
+
+
+        </script>
+</body>
+</html>
